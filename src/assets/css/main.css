@@ -1,2 +1,7 @@
 @import 'tailwindcss';
 @import 'tailwindcss-primeui';
+
+/* NOTE Tailwind config */
+@theme {
+  --color-test-300: #ff3922; /* Overrides the default gray-500 */
+}
